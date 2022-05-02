@@ -5,7 +5,15 @@
 
 **Packages:** sci-kit learn, numpy, pandas, matplotlib, seaborn 
 
-**Data Source:** Kaggle dataset of 30m by 30m patch of forest land from the Roosvelt National Forest of northern Colorado posted in 2015. Each patch is represented as a row in a training set with over 15K observations and test set with over 565K observations. The analysis requires multi-class classification of the test set where each patch of land should be classified as having one of seven forest cover types:
+
+## Executive Summary 
+
+Predicted forest cover type through an ensemble model of Random Forest and Extra Trees classifiers trained on expanded feature set with Python – achieved average 80% accuracy (89th percentile competition ranking).
+
+Applied data-centric approach to improve model accuracy by conducting feature expansion (averaging and summing numerical features) and feature reduction (reverse hot-encoding dummy variables and normalizing numerical features to conduct principal component analysis).
+
+## Data Source
+Kaggle dataset of 30m by 30m patch of forest land from the Roosvelt National Forest of northern Colorado posted in 2015. Each patch is represented as a row in a training set with over 15K observations and test set with over 565K observations. The analysis requires multi-class classification of the test set where each patch of land should be classified as having one of seven forest cover types:
 
 1. Spruce/Fir
 2. Lodgepole Pine
@@ -14,14 +22,6 @@
 5. Douglas-fir
 6. Krummholz
 7. Cottonwood/Willow
-
-
-## Executive Summary 
-
-Predicted forest cover type through an ensemble model of Random Forest and Extra Trees classifiers trained on expanded feature set with Python – achieved average 80% accuracy (89th percentile competition ranking).
-
-Applied data-centric approach to improve model accuracy by conducting feature expansion (averaging and summing numerical features) and feature reduction (reverse hot-encoding dummy variables and normalizing numerical features to conduct principal component analysis).
-
 
 ## Data Set Features
 
