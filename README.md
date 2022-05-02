@@ -7,13 +7,13 @@
 
 **Data Source:** Kaggle dataset of 30m by 30m patch of forest land from the Roosvelt National Forest of northern Colorado posted in 2015. Each patch is represented as a row in a training set with over 15K observations and test set with over 565K observations. The analysis requires multi-class classification of the test set where each patch of land should be classified as having one of seven forest cover types:
 
-1. Spruce/Fir **
-2. A Jupyter notebook containing all the work the team did in order to deliver the best predictions (40%)**
-3. A business report (40%)** explaining:
-4. as
-5. asf
-6. asdf
-7. 
+1. Spruce/Fir
+2. Lodgepole Pine
+3. Ponderosa Pine
+4. Aspen
+5. Douglas-fir
+6. Krummholz
+7. Cottonwood/Willow
 
 
 ## Executive Summary 
