@@ -7,12 +7,17 @@
 
 **Data Source:** Kaggle dataset of 30m by 30m patch of forest land from the Roosvelt National Forest of northern Colorado posted in 2015. Each patch is represented as a row in a training set with over 15K observations and test set with over 565K observations. The analysis requires multi-class classification of the test set where each patch of land should be classified as having one of seven forest cover types:
 
+* **A file containing the best predictions from your best model (20%)**
+* **A Jupyter notebook containing all the work the team did in order to deliver the best predictions (40%)**
+* **A business report (40%)** explaining:
+
 
 ## Executive Summary 
 
-Predicted forest cover type through an ensemble model of Random Forest and Extra Trees classifiers trained on expanded feature set with Python – achieved average 80% accuracy (89th percentile competition ranking)
+Predicted forest cover type through an ensemble model of Random Forest and Extra Trees classifiers trained on expanded feature set with Python – achieved average 80% accuracy (89th percentile competition ranking).
 
-Applied data-centric approach to improve model accuracy by conducting feature expansion (averaging and summing numerical features) and feature reduction (reverse hot-encoding dummy variables and normalizing numerical features to conduct principal component analysis)
+Applied data-centric approach to improve model accuracy by conducting feature expansion (averaging and summing numerical features) and feature reduction (reverse hot-encoding dummy variables and normalizing numerical features to conduct principal component analysis).
+
 
 ## Data Set Features
 
