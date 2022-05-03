@@ -8,7 +8,7 @@
 
 ## Executive Summary 
 
-Predicted forest cover type through an ensemble model of Random Forest and Extra Trees classifiers trained on expanded feature set with Python – achieved average 80% accuracy (89th percentile Kaggle competition ranking).
+Predicted forest cover type through an ensemble model of Random Forest and Extra Trees classifiers trained on expanded feature set with Python – achieved average 79.7% accuracy (89th percentile Kaggle competition ranking).
 
 Applied data-centric approach to improve model accuracy by conducting feature expansion (averaging and summing numerical features) and feature reduction (reverse hot-encoding dummy variables and normalizing numerical features to conduct principal component analysis).
 
